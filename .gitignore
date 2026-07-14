@@ -1,4 +1,60 @@
-# Byte-compiled / optimized / DLL files
+# macOS
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.old
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# VirtualBox
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+
+# VMware
+*.vmx
+*.vmxf
+*.vmsd
+*.nvram
+*.vmem
+*.vmsn
+
+# Media (uncomment if you want to exclude screenshots)
+# media/
+# *.png
+# *.jpg
+# *.jpeg
+
+# Project specific
+*.docx
+*.pdf
+*.zip
+*.tar.gz
+*.kdbx
+*.gpg# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
